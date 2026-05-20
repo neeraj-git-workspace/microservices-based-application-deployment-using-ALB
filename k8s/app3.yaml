@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: app3-container
-          image: kastrov/app3:3.0.0
+          image: neeraj2211/app3:3.0.0
           imagePullPolicy: Always
           ports:
             - containerPort: 5000
