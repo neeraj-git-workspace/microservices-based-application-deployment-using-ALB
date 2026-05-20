@@ -68,7 +68,7 @@ eksctl create iamserviceaccount \
   --cluster neeraj-cluster \
   --namespace kube-system \
   --name aws-load-balancer-controller \
-  --attach-policy-arn arn:aws:iam::560185625463:policy/AWSLoadBalancerControllerIAMPolicy-v3 \
+  --attach-policy-arn arn:aws:iam::085876626251:policy/AWSLoadBalancerControllerIAMPolicy-v3 \
   --approve \
   --region ap-southeast-2
 
