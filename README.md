@@ -52,7 +52,7 @@ eksctl version
 
 🔹 STEP 4 — OIDC
 eksctl utils associate-iam-oidc-provider \
---region ap-south-1 \
+--region ap-southeast-2 \
 --cluster neeraj-cluster \
 --approve
 
@@ -97,7 +97,7 @@ http://<ALB-DNS>/app1
 http://<ALB-DNS>/app2
 http://<ALB-DNS>/app3
 
-http://k8s-microservicesgrou-322f257afd-1308123168.ap-south-1.elb.amazonaws.com/app3
+http://k8s-microservicesgrou-322f257afd-1308123168.ap-southeast-2.elb.amazonaws.com/app3
 
 🔹 STEP 11 — Cleanup Commands
 Delete Ingress
